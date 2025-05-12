@@ -15,4 +15,8 @@ ADD COLUMN `point_activity_id` BIGINT COMMENT '积分商城活动的编号';
 
 ALTER TABLE `trade_delivery_pick_up_store` 
 ADD COLUMN `verify_user_ids` BIGINT COMMENT '核销员工用户编号';
+
+ALTER TABLE `promotion_coupon_template`
+ADD COLUMN `description` TEXT COMMENT '优惠券说明';
+
 ```
